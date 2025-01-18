@@ -104,6 +104,10 @@ function App() {
           <Button variant="outline-warning" onClick={stop}>Stop</Button>
           <Button variant="outline-dark" onClick={reset}>Reset</Button>
         </div>
+
+  <div style={{text-align: center, margin-top: 30px, color: #0271ff}}>
+        <p>Made By <strong>Azaan Ullah Khan</strong> with 💙</p>
+    </div>
       </div>
     </>
   );
