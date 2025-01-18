@@ -9,7 +9,7 @@ const style1 = {
   flexDirection: "column",
   borderRadius: "5px",
   backgroundColor: "#fff",
-  border: "1px solid #0271ff"
+  border: "3px solid #0271ff"
 };
 
 const style2 = {
