@@ -8,7 +8,7 @@ const style1 = {
   gap: "20px",
   flexDirection: "column",
   borderRadius: "5px",
-  backgroundColor: "white";
+  backgroundColor: "#fff";
   border: "1px solid #0271ff"
 };
 
