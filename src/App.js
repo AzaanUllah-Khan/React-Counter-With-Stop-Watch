@@ -86,7 +86,7 @@ function App() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center", borderBottom: "1px solid #eee", fontSize: "20px", paddingBottom: "10px", marginBottom: "20px" }}>Counter</h1>
+      <h1 style={{ color: "#0271ff", textAlign: "center", borderBottom: "1px solid #cce2ff", fontSize: "20px", paddingBottom: "10px", marginBottom: "20px" }}>Counter</h1>
       <div style={style1}>
         <h1 style={{ textAlign: "center" }}>{count}</h1>
         <div style={style2}>
@@ -96,9 +96,9 @@ function App() {
         </div>
       </div>
 
-      <h1 style={{ textAlign: "center", borderBottom: "1px solid #eee", fontSize: "20px", paddingBottom: "10px", margin: "100px 0 20px" }}>Stop Watch</h1>
+      <h1 style={{ textAlign: "center", borderBottom: "1px solid #cce2ff", fontSize: "20px", paddingBottom: "10px", margin: "100px 0 20px" }}>Stop Watch</h1>
       <div style={style1}>
-        <h1 style={{ textAlign: "center" }}>{timeh}:{time}:{timez}</h1>
+        <h1 style={{ color: "#0271ff", textAlign: "center" }}>{timeh}:{time}:{timez}</h1>
         <div style={style2}>
           <Button variant="outline-success" onClick={start}>Start</Button>
           <Button variant="outline-warning" onClick={stop}>Stop</Button>
